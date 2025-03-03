@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "srsproject"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "srsproject-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
