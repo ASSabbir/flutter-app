@@ -1,25 +1,16 @@
-# default_connector SDK
+# srsproject
 
-## Installation
-```sh
-flutter pub get firebase_data_connect
-flutterfire configure
-```
-For more information, see [Flutter for Firebase installation documentation](https://firebase.google.com/docs/data-connect/flutter-sdk#use-core).
+hospitalseatbooking and availability checking app
 
-## Data Connect instance
-Each connector creates a static class, with an instance of the `DataConnect` class that can be used to connect to your Data Connect backend and call operations.
+## Getting Started
 
-### Connecting to the emulator
+This project is a starting point for a Flutter application.
 
-```dart
-String host = 'localhost'; // or your host name
-int port = 9399; // or your port number
-DefaultConnector.instance.dataConnect.useDataConnectEmulator(host, port);
-```
+A few resources to get you started if this is your first Flutter project:
 
-You can also call queries and mutations by using the connector class.
-## Queries
-This connector does not contain any queries.
-## Mutations
-This connector does not contain any mutations.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
