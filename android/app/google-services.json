@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227552565253",
+    "project_id": "fflutterproject",
+    "storage_bucket": "fflutterproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227552565253:android:81da81057adf7728baa46c",
+        "android_client_info": {
+          "package_name": "srs.help.srsproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqrl4lM6MOt6GK-gISg5wQVQWbmrvOego"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
